@@ -1,0 +1,109 @@
+#servicii {
+    padding: 80px 10%;
+    background: #ffffff;
+    text-align: center;
+}
+
+.servicii-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.serviciu-card {
+    background: #f9f9f9;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width: 300px;
+    text-align: center;
+}
+
+.serviciu-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.serviciu-content {
+    padding: 20px;
+}
+
+.serviciu-card h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.serviciu-card p {
+    font-size: 1em;
+    color: #555;
+}
+
+.serviciu-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Stilizare Experiență în Cifre */
+.experienta-container {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.experienta-container h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.statistici {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.stat {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+}
+
+.stat h3 {
+    font-size: 2em;
+    color: #ff6600;
+}
+
+.stat p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+@media (max-width: 900px) {
+    .servicii-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .serviciu-card {
+        width: 80%;
+        max-width: 350px;
+    }
+
+    .statistici {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .stat {
+        width: 80%;
+        max-width: 300px;
+    }
+}

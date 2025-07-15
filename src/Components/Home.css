@@ -1,0 +1,62 @@
+#acasa {
+    padding: 100px 10%;
+    text-align: center;
+    position: relative;
+    color: white;
+    background: url('images/bgimg.jpg') no-repeat center center/cover;
+}
+
+
+#acasa h1 {
+    padding-top: 10%;
+    font-size: 200px;
+    color: black;
+    cursor: default;
+}
+
+#acasa h3 {
+    color: black;
+}
+
+#acasa p {
+    padding-top: 1em;
+    font-size: 2em;
+    color: black;
+}
+
+#homeBtn {
+    margin-top: 2em;
+    font-size: 1em;
+    padding: 1em;
+    background-color: white;
+    border-radius: 12px;
+}
+
+@media (max-width: 900px) {
+    #acasa {
+        padding: 60px 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #acasa h1 {
+        font-size: 60px;
+        padding-top: 50px;
+    }
+
+    #acasa h3 {
+        font-size: 1.2em;
+    }
+
+    #acasa p {
+        font-size: 1.2em;
+    }
+
+    #homeBtn {
+        font-size: 0.9em;
+        padding: 0.8em 1.2em;
+        margin-top: 1.5em;
+    }
+}
