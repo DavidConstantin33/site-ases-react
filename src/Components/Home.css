@@ -24,12 +24,42 @@
     color: black;
 }
 
+
 #homeBtn {
-    margin-top: 2em;
-    font-size: 1em;
-    padding: 1em;
-    background-color: white;
-    border-radius: 12px;
+    appearance: none;
+    background-color: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    line-height: normal;
+    margin: 2em 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+}
+
+#homeBtn:disabled {
+    pointer-events: none;
+}
+
+#homeBtn:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+#homeBtn:active {
+    box-shadow: none;
+    transform: translateY(0);
 }
 
 @media (max-width: 900px) {
