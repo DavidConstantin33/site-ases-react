@@ -3,9 +3,9 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background: #333;
+    background: black;
     z-index: 1000;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 nav ul {
