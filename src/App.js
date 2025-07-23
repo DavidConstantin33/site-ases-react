@@ -5,6 +5,7 @@ import Proiecte from "./Components/Projects";
 import Services from "./Components/Services";
 import Social from "./Components/Social";
 import Contact from "./Components/Contact";
+import Footer from './Components/Footer'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Services/>
         <Social/>
         <Contact/>
+        <Footer/>
     </div>
   );
 }
