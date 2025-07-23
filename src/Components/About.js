@@ -20,8 +20,7 @@ export default function About() {
                     <a href="https://procariera.ro" target="_blank" rel="noopener noreferrer">
                         <img src="/images/banner_05.jpg" alt="ProCariera Banner" className="banner-img"/>
                     </a>
-                    <p className="parteneriat-text">Suntem parteneri OSC, susținând împreună educația și integrarea
-                        profesională a tinerilor prin ProCariera.</p>
+                    <p className="parteneriat-text">Locul unde cererea și oferta de muncă se întâlnesc digital!</p>
                 </div>
             </section>
         </div>
